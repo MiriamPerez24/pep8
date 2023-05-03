@@ -1,10 +1,18 @@
-class User():
-    def  __init__(self, username,password=''):
+# CamelCase: la primera mayuscula y la segunda palabra tambien 
+# Identacion: 4 espacios (no tabs)
+# Parametros separados por un espacio   
+# Ahora son 8 espacios 
+# snake_case: Espacio entre operadores
 
-    self.usarname = username
-    self.password = password
+class UserAdmin():
+
+
+    def __init__(self, username, password = ''):
+        self.usarname = username
+        self.password = password
+
 
     def set_password(self):
         pass
 
-    condyuser = user('Cody')
+condy_user = UserAdmin('Cody')
